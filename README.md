@@ -102,7 +102,7 @@ IDEs used to complete the project
    
    When replacing the start button for the difficulty buttons, there were a various changes I had to make to the each file. First, I had to add the buttons to HTML and add the onclick attribute to each button. Second, I had to add the
    CSS color properties to each button with their respective colors. Finally, I had to rewire my JavaScript file to change the length of the pattern array for each difficulty button. The problem I encountered was the length of the array
-   was not being assigned before the startGame() function was called. In order to solve this, I used the Mozilla's developer debugger the watch each variable and step-through each line. After some minutes, I found the bug and fixed it.
+   was not being assigned before the startGame() function was called. In order to solve this, I used the Mozilla's developer debugger to watch each variable and step-through each line. After some minutes, I found the bug and fixed it.
    In C++, I have had extensive experience using the debugger, so I was glad to see that those skills transferred to Web-Development. 
 
 
@@ -114,7 +114,7 @@ IDEs used to complete the project
    a full-stack web-app at the end of the semester.
 
    I am also curious on how collaborating with a big team in web development works. I have only worked by myself or in a small team, so working with many experienced individuals is something I am eager to do. I want to see what are the best ways to
-   divide up work, how professionals communicate with each other, and how others organize resources. Currently, I take notes on everything I learn in order to never forget anything. I would love to see how others keep up with how fast everything changes
+   divide up work, how to communicate effectively with professionals, and how others organize resources. Currently, I take notes on everything I learn in order to never forget anything. I would love to see how others keep up with how fast everything changes
    in Computer Science and am curious on what are the best ways to learn these new technologies.
 
 
