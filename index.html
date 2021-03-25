@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mark Cruz | Light and Sound Memory Game</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="script.js" defer></script>
+  </head>  
+  <body>
+    <h1 class="center">Light and Sound Memory Game</h1>
+    
+    <p class="center">
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    <p class="center">
+      Please select a difficulty to start.
+    </p>
+
+
+    
+    <div id="gameButtonArea" class="center">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone()"></button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone()"></button>
+      <button id="button7" onclick="guess(7)" onmousedown="startTone(7)" onmouseup="stopTone()"></button>
+      <button id="button8" onclick="guess(8)" onmousedown="startTone(8)" onmouseup="stopTone()"></button>
+      <button id="button9" onclick="guess(9)" onmousedown="startTone(9)" onmouseup="stopTone()"></button>
+    </div>
+
+    <div id="startStopButtonArea" class="center">
+
+      <button id="easyBtn" onclick="easyModifier(); startGame()">
+        Easy
+      </button>
+
+      <button id="mediumBtn" onclick="mediumModifier(); startGame()">
+        Medium
+      </button>
+
+      <button id="hardBtn" onclick="hardModifier(); startGame()">
+        Hard
+      </button>
+
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+    </div>
+
+
+    <audio id="myAudioWin" class="hidden">
+      <source src="https://cdn.glitch.com/7b8f033e-27f9-45bc-88d8-cc7f29817745%2FChildren%20Yay!%20Sound%20Effect.mp3?v=1616634111207" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <audio id="myAudioLose" class="hidden">
+      <source src="https://cdn.glitch.com/7b8f033e-27f9-45bc-88d8-cc7f29817745%2FCute%20Aww%20Sound%20Effect.mp3?v=1616634106791" type="audio/ogg">
+      Your browser does not support the audio element.
+    </audio>
+  
+  </body>
+</html>
