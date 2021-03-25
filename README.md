@@ -7,7 +7,7 @@ Submitted by: **Mark Cruz**
 Time spent: **9.7** hours spent in total
 
 
-Link to project source: (https://glitch.com/tidy-broadleaf-forest) \
+Link to project source: (https://glitch.com/edit/#!/tidy-broadleaf-forest) \
 Link to project release: (https://tidy-broadleaf-forest.glitch.me/)
 
 ## Required Functionality
